@@ -1,0 +1,19 @@
+repositories {
+    mavenCentral()
+}
+
+group 'info.unportant.jfr'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply plugin: 'idea'
+
+compileJava {
+    sourceCompatibility = 1.8
+}
+
+dependencies {
+    testCompile 'org.codehaus.groovy:groovy-all:2.4.1'
+    testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
+}
