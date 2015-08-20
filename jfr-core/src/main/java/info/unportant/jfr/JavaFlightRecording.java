@@ -119,7 +119,7 @@ public class JavaFlightRecording {
         return conf;
     }
 
-    static class Conf {
+    public static class Conf {
 
         private final Path outputPath;
         private final String name;
@@ -150,7 +150,7 @@ public class JavaFlightRecording {
         }
     }
 
-    static class Builder {
+    public static class Builder {
 
         Path outputPath;
         String settings;
